@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/stylr_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+<ul id="menu_superior">
+	<li><a href="../index.html">Inicio</a></li>	
+    <li><a href="Formatos_texto.html">&nbsp;Formatos de texto</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+	<li><a href="Imagenes.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Video.html">Video</a></li>
+	<li><a href="Formularios.html">Formulario</a></li>
+  </ul>	
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum totam officiis deleniti est atque voluptatum, sapiente obcaecati aperiam veritatis iure facere, alias, accusantium <a href="Enlaces.html">eligendi </a>tempora commodi? Recusandae sapiente illo quis, deserunt facilis, aperiam nobis commodi neque cum earum minima, nihil quia mollitia! Unde sed nam quasi fugit consectetur, nobis error!</p>
+    <table border="1" id="tabla_1">
+		  <thead>
+			  <tr>
+				  <th>Nombre</th>
+				  <th>Taller</th>
+				  <th>Email</th>
+				  <th>Cuota de taller</th>
+			  </tr>
+		  </thead>
+		  <tbody> 
+			  <tr>
+				  <td>Luisa Rivera</td>
+				  <td>Arte</td>
+				  <td>luisa.riv@gmail.com</td>
+				  <td>600</td>
+			  </tr>
+			  <tr>
+			  	<td>Iván Garcia</td>
+			  	<td>Tipografia</td>
+			  	<td>garcia.iva@gmail.com</td>
+			  	<td>700</td>
+			  </tr>
+			  <tr>
+			  	<td>Sofia Pazos</td>
+			  	<td>Arte</td>
+			  	<td>soffi.paz@gmail.com</td>
+			  	<td>600</td>
+			  </tr>
+			  <tr>
+			  	<td>Luis Rodriguez</td>
+			  	<td>Fotografia</td>
+			  	<td>luis.rdz@gmail.com</td>
+			  	<td>1,200</td>
+			  </tr>
+			  <tr>
+			  	<td>Samantha Luna</td>
+			  	<td>Mercadotecnia</td>
+			  	<td>sam.luna@gamil.com</td>
+			  	<td>1,100</td>
+			  </tr>
+		  </tbody>
+		  <tfoot>
+			  <tr>
+				  <td></td>
+				  <td></td>
+				  <td>Total de inscripción</td>
+				  <td>4,200</td>
+			  </tr>
+		  </tfoot>
+	  </table>
+</section>
+  <section>
+    <h2>Tabla con estilo css y uso rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum totam officiis deleniti est atque voluptatum, sapiente obcaecati aperiam veritatis iure facere, alias, accusantium <a href="Enlaces.html">eligendi </a>tempora commodi? Recusandae sapiente illo quis, deserunt facilis, aperiam nobis commodi neque cum earum minima, nihil quia mollitia! Unde sed nam quasi fugit consectetur, nobis error!</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Luisa Rivera</td>
+          <td>Arte</td>
+          <td>luisa.riv@gmail.com</td>
+          <td>600</td>
+        </tr>
+        <tr>
+          <td>Iván Garcia</td>
+          <td>Tipografia</td>
+          <td>garcia.iva@gmail.com</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>Sofia Pazos</td>
+          <td>Arte</td>
+          <td>soffi.paz@gmail.com</td>
+          <td>600</td>
+        </tr>
+        <tr>
+          <td>Luis Rodriguez</td>
+          <td>Fotografia</td>
+          <td>luis.rdz@gmail.com</td>
+          <td>1,200</td>
+        </tr>
+        <tr>
+          <td>Samantha Luna</td>
+          <td>Mercadotecnia</td>
+          <td>sam.luna@gamil.com</td>
+          <td>1,100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+         <td colspan="3" style="background-color:#D98EBF; font-weight: bold; color: #F7ECD0" >Total de inscripción</td>
+          <td>4,200</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<section>
+    <h2>Tabla con cebras en horizal o filas&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum totam officiis deleniti est atque voluptatum, sapiente obcaecati aperiam veritatis iure facere, alias, accusantium <a href="Enlaces.html">eligendi </a>tempora commodi? Recusandae sapiente illo quis, deserunt facilis, aperiam nobis commodi neque cum earum minima, nihil quia mollitia! Unde sed nam quasi fugit consectetur, nobis error!</p>
+	  <table width="100%" border="1" cellspacing="5" id="tabla_3">
+     	<thead>
+			<tr>
+         	 <th scope="col">Nombre&nbsp;<br>
+         	   </th>
+<th scope="col">&nbsp;Correo Electronico<br>
+   	        </th>
+<th scope="col">Telefono&nbsp;</th>
+         	 <th scope="col">Edad&nbsp;</th>
+         	 <th scope="col">Deporte&nbsp;&nbsp;</th>
+			</tr>
+		</thead>
+		<tbody>
+        <tr>
+          <td>Luisa Rivera</td>
+          <td>luisa.riv@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>15</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+        <tr>
+          <td>Iván Garcia</td>
+          <td>garcia.iva@gmail.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>13</td>
+          <td>&nbsp;Voleivol</td>
+        </tr>
+        <tr>
+          <td>Sofia Pazos</td>
+          <td>soffi.paz@gmail.com</td>
+          <td>&nbsp;2223456788</td>
+          <td>12&nbsp;</td>
+          <td>&nbsp;Basket</td>
+        </tr>
+        <tr>
+          <td>Luis Rodriguez</td>
+          <td>luis.rdz@gmail.com</td>
+          <td>&nbsp;2234456656</td>
+          <td>16</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla con cebras en vertical o columna&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum totam officiis deleniti est atque voluptatum, sapiente obcaecati aperiam veritatis iure facere, alias, accusantium <a href="Enlaces.html">eligendi </a>tempora commodi? Recusandae sapiente illo quis, deserunt facilis, aperiam nobis commodi neque cum earum minima, nihil quia mollitia! Unde sed nam quasi fugit consectetur, nobis error!</p>
+    <table border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">Nombre&nbsp;</th>
+          <th scope="col">&nbsp;Correo Electronico<br>
+          </th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Luisa Rivera</td>
+          <td>luisa.riv@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>15</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+        <tr>
+          <td>Iván Garcia</td>
+          <td>garcia.iva@gmail.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>13</td>
+          <td>&nbsp;Voleivol</td>
+        </tr>
+        <tr>
+          <td>Sofia Pazos</td>
+          <td>soffi.paz@gmail.com</td>
+          <td>&nbsp;2223456788</td>
+          <td>12&nbsp;</td>
+          <td>&nbsp;Basket</td>
+        </tr>
+        <tr>
+          <td>Luis Rodriguez</td>
+          <td>luis.rdz@gmail.com</td>
+          <td>&nbsp;2234456656</td>
+          <td>16</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+<h2>Tabla flotante (hover)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum totam officiis deleniti est atque voluptatum, sapiente obcaecati aperiam veritatis iure facere, alias, accusantium <a href="Enlaces.html">eligendi </a></p>
+    <p>tempora commodi? Recusandae sapiente illo quis, deserunt facilis, aperiam nobis commodi neque cum earum minima, nihil quia mollitia! Unde sed nam quasi fugit consectetur, nobis error!</p>
+    <table border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">Nombre&nbsp;</th>
+          <th scope="col">&nbsp;Correo Electronico<br>
+          </th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Luisa Rivera</td>
+          <td>luisa.riv@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>15</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+        <tr>
+          <td>Iván Garcia</td>
+          <td>garcia.iva@gmail.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>13</td>
+          <td>&nbsp;Voleivol</td>
+        </tr>
+        <tr>
+          <td>Sofia Pazos</td>
+          <td>soffi.paz@gmail.com</td>
+          <td>&nbsp;2223456788</td>
+          <td>12&nbsp;</td>
+          <td>&nbsp;Basket</td>
+        </tr>
+        <tr>
+          <td>Luis Rodriguez</td>
+          <td>luis.rdz@gmail.com</td>
+          <td>&nbsp;2234456656</td>
+          <td>16</td>
+          <td>&nbsp;Fut</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section id="section_1">
+    <h2>Tabla receptiva</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam cupiditate a sunt, accusantium ducimus voluptates laborum, aspernatur voluptatibus est voluptate possimus, neque unde sequi ratione eaque odit praesentium quidem maiores! Saepe optio vel sapiente asperiores unde eaque. Et, voluptate, aliquid.</p>
+    <div id="tabla_receptiva">
+      <table border="1" cellspacing="5" id="table_6">
+        <tbody>
+          <tr>
+            <th scope="col">Nombre&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">&nbsp;Puntos</th>
+            <th scope="col">&nbsp;Puntos</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+          </tr>
+          <tr>
+            <td>&nbsp;Gabriela</td>
+            <td>&nbsp;0</td>
+            <td>&nbsp;2</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;25</td>
+            <td>&nbsp;24</td>
+            <td>&nbsp;85</td>
+            <td>&nbsp;96</td>
+            <td>&nbsp;23</td>
+            <td>&nbsp;65</td>
+            <td>&nbsp;15</td>
+            <td>&nbsp;99</td>
+            <td>&nbsp;56</td>
+            <td>&nbsp;49</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Maria</td>
+            <td>&nbsp;55</td>
+            <td>&nbsp;86</td>
+            <td>97</td>
+            <td>&nbsp;98</td>
+            <td>&nbsp;74</td>
+            <td>&nbsp;53</td>
+            <td>&nbsp;44</td>
+            <td>&nbsp;39</td>
+            <td>&nbsp;56</td>
+            <td>&nbsp;31</td>
+            <td>&nbsp;14</td>
+            <td>&nbsp;53</td>
+            <td>&nbsp;54</td>
+            <td>&nbsp;62</td>
+          </tr>
+          <tr>
+            <td>&nbsp;David</td>
+            <td>&nbsp;22</td>
+            <td>&nbsp;77</td>
+            <td>&nbsp;28</td>
+            <td>30</td>
+            <td>&nbsp;32</td>
+            <td>&nbsp;42</td>
+            <td>&nbsp;79</td>
+            <td>&nbsp;94</td>
+            <td>&nbsp;83</td>
+            <td>&nbsp;29</td>
+            <td>&nbsp;16</td>
+            <td>&nbsp;80</td>
+            <td>&nbsp;42</td>
+            <td>&nbsp;91</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Enrique</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;37</td>
+            <td>&nbsp;61</td>
+            <td>&nbsp;53</td>
+            <td>&nbsp;87</td>
+            <td>&nbsp;36</td>
+            <td>&nbsp;40</td>
+            <td>&nbsp;87</td>
+            <td>&nbsp;54</td>
+            <td>&nbsp;78</td>
+            <td>&nbsp;81</td>
+            <td>&nbsp;93</td>
+            <td>&nbsp;30</td>
+            <td>&nbsp;75</td>
+          </tr>
+        </tbody>
+      </table>
+    Colocar aquí el contenido de la nueva etiqueta div</div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Mayra Edith Luna Santos</h6>
+&nbsp;</footer>
+</body>
+</html>

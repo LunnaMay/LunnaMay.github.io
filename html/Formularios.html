@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/stylr_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+</header>
+<nav>
+	<ul id="menu_superior">
+	<li><a href="../index.html">Inicio</a></li>	
+    <li><a href="Formatos_texto.html">&nbsp;Formatos de texto</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+	<li><a href="Imagenes.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Video.html">Video</a></li>
+  </ul>	
+	</nav>
+<main>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum odio cum debitis, nemo, cupiditate alias! Sint architecto labore, voluptate molestiae necessitatibus adipisci unde, sunt nulla ex aliquam natus. Voluptas.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="Nombre" id="Nombre">
+		<br> <br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br> <br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario&nbsp; de opciones</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum odio cum debitis, nemo, cupiditate alias! Sint architecto labore, voluptate molestiae necessitatibus adipisci unde, sunt nulla ex aliquam natus. Voluptas.</p>
+    <form id="form2" name="form2" method="get">
+      <label for="select">¿De qué país nos visitas?:</label>
+      <select name="select" id="Pais">
+        <option value="MX">México</option>
+        <option value="US">Estados Unidos</option>
+        <option value="ES">España</option>
+        <option value="AR">Argentina</option>
+        <option value="CO">Columbia</option>
+        <option value="IT">Italia</option>
+      </select>
+		<br> <br>
+      <label>Género:</label>
+      <p>
+        <label>
+          <input type="radio" name="G&eacute;nero" value="hombre" id="Geacutenero_0">
+          Hombre</label>
+        <br>
+        <label>
+          <input type="radio" name="G&eacute;nero" value="mujer" id="Geacutenero_1">
+          Mujer</label>
+        <br> 
+      </p>
+      <label>¿Cúal sera tu residencia durante la estancia?</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="hotel" id="Residencia_temporal_0">
+            Hotel</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="particular" id="Residencia_temporal_1">
+            Domicilio de amigo/familia</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="airbnb" id="Residencia_temporal_2">
+            Airbnb</label></td>
+        </tr>
+      </table>
+<br> <br>
+      <input type="submit" name="submit2" id="boton_2" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario de contacto&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum odio cum debitis, nemo, cupiditate alias! Sint architecto labore, voluptate molestiae necessitatibus adipisci unde, sunt nulla ex aliquam natus. Voluptas.</p>
+    <form action="procesamiento.html" method="get" name="form3" id="form3">
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" type="text" required="required" id="nombre">
+      <label for="email">Email:</label>
+      <input name="email" type="email" id="email">
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" rows="6" maxlength="150" required="required" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+      <input type="submit" name="submit2" id="boton_2" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formulario personalizado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum odio cum debitis, nemo, cupiditate alias! Sint architecto labore, voluptate molestiae necessitatibus adipisci unde, sunt nulla ex aliquam natus. Voluptas.</p>
+    <form id="form4" method="get"> 
+	  <h3 class="_textopremio">Gracias por tu compra, ¡Haz ganado un premio!&nbsp; &nbsp; &nbsp;</h3>
+		<br> <br>
+		<label for="cajita">Nombre:</label>
+        <input type="text" name="cajita" id="cajita">
+		<br> <br>
+		<label for="cajita2">Número de ticket</label>
+  <input type="number" id="cajita2" name="cajita2" min="1" max="5">
+		<br> <br>
+<label for="favcolor">Elige un color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#60BCF7">
+  <table width="200">
+    <tr>
+      <td><p>&nbsp;</p>
+        <p class="_parrafito">Elige un premio </p>
+        <p>&nbsp;</p>
+		  <label>
+		    <input type="radio" name="Premios" value="cartera" id="Premios_0">
+        Cartera</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="Premios" value="gorra" id="Premios_1">
+        Gorra</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="Premios" value="audifonos" id="Premios_2">
+        Audifonos</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="Premios" value="gafas" id="Premios_3">
+        Gafas</label></td>
+    </tr>
+  </table>
+<br> <br>
+		<label for="fecha">Fecha disponible para entrega (día y hora):</label>
+  <input type="datetime-local" id="fecha" name="fecha">
+		<br> <br>
+		 <label for="phone">Ingresa tu número:</label>
+		 <br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+		<br> <br>
+		<input name="botonfinal" type="submit" id="botonfinal">
+		<br> <br>
+    </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Mayra Edith Luna Santos</h6>
+</footer>
+</body>
+</html>

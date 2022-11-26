@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header {
+    background-color: #BBFFD7;
+    color: #330C86;
+    height: 400px;
+    padding-top: 150px;
+}
+body header  , body nav , body main , body footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    background-color: #D8B0DF;
+    height: 80px;
+    color: #330C86;
+}
+body main {
+    background-color: #68D3CE;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+body footer {
+    background-color: #A3FBC8;
+    height: 100px;
+    padding-top: 40px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    width: 800px;
+    background-color: #F9DDDD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    height: auto;
+}
+main section h2 {
+    padding-bottom: 20px;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 72px;
+}
+section ul li {
+    list-style-type: square;
+}
+#lista_1 li {
+    list-style-type: circle;
+}
+body footer h6 {
+    text-align: center;
+    font-size: 18px;
+    height: 20px;
+}
+.lista_2 {
+    list-style-image: url(../medios/iconos/flor-de-loto.png);
+}
+section ul  , section ol{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#menu_superior {
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 0;
+    padding-top: 16px;
+    margin-left: 35px;
+    margin-right: auto;
+    text-decoration: none;
+}
+#menu_superior li  {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 5px;
+    border: medium solid #FFFFFF;
+    margin-right: 30px;
+    color: #640B86;
+    width: auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu_superior li a:visited {
+    color: #640B86;
+    font-size: 18px;
+    text-decoration: none;
+}
+#menu_superior li a:hover {
+    color: #B8ED2B;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Listas en html</h1>
+</header>
+<nav>
+	<ul id="menu_superior">
+	<li><a href="../index.html">Inicio</a></li>	
+    <li><a href="Formatos_texto.html">&nbsp;Formatos de texto</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+	<li><a href="Imagenes.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Video.html">Video</a></li>
+	<li><a href="Formularios.html">Formulario</a></li>
+  </ul>	
+</nav>
+<main>
+  <section>
+    <h2>Lista desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cumque quibusdam. Vitae ipsa adipisci ipsam, explicabo impedit! Fugit possimus ipsa vitae deleniti odio aliquid doloremque, tempora quae officiis totam, nemo perspiciatis sit animi iste doloribus asperiores voluptatibus, illum itaque accusamus nesciunt cum repellendus nostrum a. Officia ipsum natus possimus voluptates, nobis facere aspernatur dolorem. Quam voluptatibus officiis odit quod modi, in, commodi placeat necessitatibus obcaecati rerum minus. Ipsum dolore repudiandae harum dicta maiores, voluptates voluptas quibusdam modi fuga suscipit fugit quo nulla reprehenderit! Voluptatem, a ullam quo libero sequi voluptas, dolorum nihil quaerat deserunt aliquam nobis, autem doloribus, necessitatibus cumque!</p>
+	  <ul class="lista_2">
+		  <li>Gerberas</li>
+		  <li>Peonias</li>
+		  <li>Tulipanes</li>
+		  <li>Nube</li>
+		  <li>Girasoles</li>
+	  </ul>
+  </section>
+<section>
+    <h2>Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut fugiat harum soluta animi magni quas, nemo enim doloribus fuga asperiores, odit dolores ea, eius cum facere eos officiis et pariatur necessitatibus quod eaque dolorum quam. Optio ex consequuntur debitis amet cum error reiciendis ea, excepturi cumque, molestias, recusandae temporibus soluta!</p>
+    <ol>
+      <li>Nickte Luna</li>
+      <li>Agnes Judith</li>
+      <li>Arya García</li>
+      <li>David Miranda</li>
+      <li>Erick Fuentes&nbsp;</li>
+    </ol>
+</section>
+  <section>
+    <h2>Lista mixta</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cumque quibusdam. Vitae ipsa adipisci ipsam, explicabo impedit! Fugit possimus ipsa vitae deleniti odio aliquid doloremque, tempora quae officiis totam, nemo perspiciatis sit animi iste doloribus asperiores voluptatibus, illum itaque accusamus nesciunt cum repellendus nostrum a. Officia ipsum natus possimus voluptates, nobis facere aspernatur dolorem. Quam voluptatibus officiis odit quod modi, in, commodi placeat necessitatibus obcaecati rerum minus. Ipsum dolore repudiandae harum dicta maiores, voluptates voluptas quibusdam modi fuga suscipit fugit quo nulla reprehenderit! Voluptatem, a ullam quo libero sequi voluptas, dolorum nihil quaerat deserunt aliquam nobis, autem doloribus, necessitatibus cumque!</p>
+	  <ol>
+		  <li>Perú</li>
+		  <li>España</li>
+		  <li>México
+			  <ul>
+			  <li>Puebla</li>
+			  <li> Colima</li>
+			  <li>Aguascalientes</li>
+			  <li>Veracruz</li>
+			  <li>Monterrey</li>
+			  </ul>
+		  </li>
+		  <li>Cánada</li>
+		  <li>Ecúador</li>
+	  </ol>
+  </section>
+  <section>
+    <h2>Lista modificada con una regla de identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut fugiat harum soluta animi magni quas, nemo enim doloribus fuga asperiores, odit dolores ea, eius cum facere eos officiis et pariatur necessitatibus quod eaque dolorum quam. Optio ex consequuntur debitis amet cum error reiciendis ea, excepturi cumque, molestias, recusandae temporibus soluta!</p>
+    <ul id="lista_1">
+      <li>Seat</li>
+      <li>VW</li>
+      <li>Mazda</li>
+      <li>Ford</li>
+      <li>Audi</li>
+      <li>Renold&nbsp;</li>
+      <li>Kia&nbsp;</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Lista desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cumque quibusdam. Vitae ipsa adipisci ipsam, explicabo impedit! Fugit possimus ipsa vitae deleniti odio aliquid doloremque, tempora quae officiis totam, nemo perspiciatis sit animi iste doloribus asperiores voluptatibus, illum itaque accusamus nesciunt cum repellendus nostrum a. Officia ipsum natus possimus voluptates, nobis facere aspernatur dolorem. Quam voluptatibus officiis odit quod modi, in, commodi placeat necessitatibus obcaecati rerum minus. Ipsum dolore repudiandae harum dicta maiores, voluptates voluptas quibusdam modi fuga suscipit fugit quo nulla reprehenderit! Voluptatem, a ullam quo libero sequi voluptas, dolorum nihil quaerat deserunt aliquam nobis, autem doloribus, necessitatibus cumque!</p>
+    <ul class="lista_2">
+      <li>Gerberas</li>
+      <li>Peonias</li>
+      <li>Tulipanes</li>
+      <li>Nube</li>
+      <li>Girasoles</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <h6> Elaborado por Mayra Edith Luna Santos</h6>
+</footer>
+</body>
+</html>
